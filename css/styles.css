@@ -1,0 +1,163 @@
+/* Title Section */
+
+#title-section {
+  background-size: cover;
+  padding: 5% 12% 10%;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.title-image {
+  margin-left: 40px;
+  width: 105%;
+}
+
+.title-button {
+  margin: 5% 0 0 4%;
+}
+
+.title-search {
+  margin-right: 2%;
+}
+
+.title-row {
+  margin-top: 5%;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+/* Feature Section */
+
+#features {
+  padding: 10% 10%;
+  text-align: center;
+  line-height: 1.7;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.feature-icon:hover {
+  color: #0d6efd;
+}
+
+.feature-box {
+  padding: 3% 4%;
+}
+
+.feature-title {
+  padding: 5px;
+}
+
+/* Models-Section */
+
+#models-section {
+  background-color: #000;
+  color: #fff;
+  padding: 5% 12%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.model-heading {
+  margin-bottom: 5%;
+}
+
+.model-card {
+  padding: 10px;
+}
+/* Awards Section */
+
+#awards-section {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  padding: 5% 12%;
+}
+
+.award-content {
+  padding: 2%;
+}
+
+/* Services Section */
+
+#services-section {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 5% 12%;
+  text-align: center;
+  background: #000;
+  color: #fff;
+}
+
+.services-section-title {
+  padding: 5%;
+}
+
+.carousel-caption {
+  font-weight: 700;
+}
+
+.carousel-image {
+  opacity: 0.4;
+}
+/* Test-drive Section */
+#test-drive-section {
+  padding: 5% 10%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.test-drive-section-title {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.test-drive-row {
+  padding: 1%;
+}
+
+.test-drive-check-box {
+  margin: 2% 0;
+}
+
+/* Footer Section */
+
+#footer-section {
+  background-color: #000;
+  color: #fff;
+  padding: 7% 5%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-icon {
+  padding: 0.7%;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+   .title-image {
+     margin: 0 auto;
+   }
+
+   #models-section {
+     padding: 7% 12%;
+   }
+
+   #awards-section {
+     padding: 8% 12%;
+   }
+
+   #services-section {
+     padding: 8% 12%;
+   }
+}
